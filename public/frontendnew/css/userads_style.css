@@ -1,0 +1,225 @@
+.mtb10 {
+	margin: 10px 0;
+}
+.mb10 {
+	margin-bottom: 10px;
+}
+.select2-container--default .select2-selection--multiple .select2-selection__rendered {
+    padding: 0px 5px 5px !important;
+}
+.clearfix{
+    clear: both;
+    display: block;
+    width: 100%;
+}
+[type=radio]:checked, [type=radio]:not(:checked) {
+    left: 0 !important;
+    opacity: 1 !important;
+    margin-top: 5px !important;
+    margin-left: -15px;
+}
+.radio {
+    margin-left: 20px;
+    display: inline-block;
+    position: relative;
+}
+.single_ads {
+    border: 1px solid #b1b3b4;
+    text-align: center;
+    border-radius: 20px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    box-shadow: 0 0 10px 2px #a6a6a6;
+    background-color: white;
+}
+.single_ads_manageads{
+    text-align: center;
+    border-radius: 5px;
+    overflow: hidden;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 0px 3px rgba(0,0,0,.5);
+}
+.single_ads_manageads h4 {
+    background-color: #00bcd4;
+    padding: 10px;
+    color: white;
+    margin-bottom: 0;
+}
+.single_ads_manageads p {
+    font-size: 16px;
+    margin-bottom: 0;
+    line-height: 28px;
+    font-weight: 500;
+}
+.single_ads_manageads .ttl_sec {
+    padding: 10px 0 10px;
+    margin-bottom: 5px;
+    color: black;
+    border-bottom: 1px dashed #ececec;
+}
+.single_ads_manageads .paybtn_sec {
+    padding: 10px 0 20px;
+}
+ul.usrbanner_lists {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+    padding: 0px 0px 0;
+    margin-bottom: 0;
+}
+ul.usrbanner_lists li {
+    border-bottom: 1px dashed #f4f4f4;
+    padding: 10px;
+}
+ul.usrbanner_lists li p {
+    margin-bottom: 5px;
+}
+.single_ads h4 {
+    background-color: #1976d2;
+    padding: 20px;
+    color: white;
+    margin-bottom: 0;
+}
+.pagesec {    
+    font-size: 14px;
+    display: block;
+    font-weight: 500;
+}
+.mt10{
+    margin-top: 10px;
+}
+.banerprice_sec {
+    font-size: 14px;
+    display: block;
+}
+.banerprice_ttl{
+    font-size: 14px;
+    font-weight: 500;
+}
+.upgraded_ads {
+    background-color: #0cb619 !important;
+    color: white !important;
+}
+.ttl_sec{
+   /* background-color: #e3e3e3;*/
+    padding: 10px 0 0;
+    margin-bottom: 0;
+    color: black;
+}
+ul.usrbanner_lists li:last-child, ul.taraud_lists li:last-child {
+    margin-bottom: 0;
+}
+ul.taraud_lists {
+    padding-left: 0;
+    margin: 0;
+    padding: 0px 0px 0;
+    list-style: none;
+}
+ul.taraud_lists li p {
+    margin-bottom: 5px;
+}
+ul.taraud_lists li {
+    border-bottom: 1px dashed #f4f4f4;
+    margin-bottom: 0px;
+    padding: 10px;
+}
+ul.taraud_lists li p {
+    font-size: 14px;
+}
+.target_aud_sec {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+.target_aud_price {
+    display: block;
+    font-size: 14px;
+    font-weight: 500;
+}
+.single_ads p {
+    font-size: 14px;
+    margin-bottom: 0;
+    line-height: 22px;
+}
+.paybtn_sec {
+    padding: 10px 0;
+}
+.sec_hgt{
+    min-height: 380px;
+}
+.sec_hgt_manageads {
+    min-height: 170px;
+}
+.addstime{
+    font-weight: 500;
+    color: blue;
+}
+.addetime{
+    font-weight: 500;
+    color: red;
+}
+.boldfont{
+    font-weight: 500;
+}
+.pkgttl{
+    color: #000;
+    margin: 1rem 0 1rem 0;
+    font-size: 28px;
+    text-align: center;
+}
+.pckamntsec {
+    display: block;
+    font-size: 18px;
+    font-style: italic;
+    padding: 10px 0 0px;
+}
+.adsdesc {
+    padding: 20px 10px;
+    border-bottom: 1px solid #f4f4f4;
+    margin-bottom: 5px;
+}
+.adsdesc p {
+    font-weight: 500;
+    color: #000;
+    font-size: 16px;
+    font-style: italic;
+}
+.banner_lbl {
+    padding: 15px 0;
+}
+.formttl {
+    font-weight: 500;
+    color: black;
+    font-size: 24px;
+}
+.labeld{
+    font-weight: 500;
+    color: #455a64;
+}
+.pt10{
+    padding-top: 10px;
+}
+.imagesec {
+    height: 100px;
+    overflow: hidden;
+}
+@media only screen and (max-width: 767px)
+{
+    .sec_hgt {
+        min-height: auto;
+    }
+    .sec_hgt_manageads {
+        min-height: auto;
+    }
+    .container-fluid {
+        padding: 10px 15px 10px 15px !important;
+    }
+}
+
+@media only screen and (min-width: 768px)
+{
+    .card {
+        padding: 15px !important;
+    }
+}
